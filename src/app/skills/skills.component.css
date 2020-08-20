@@ -32,10 +32,11 @@
   background-size: contain ;
   background-repeat: no-repeat ;
   background-position: center;
-  margin-right: 30px;
+  margin: 20px;
   width: 20em;
   height: 20em;
 }
+
 
 
 .ui.small.circular.image{
@@ -44,7 +45,23 @@
   zoom: 0.8;
 }
 
+
+
 /*
 background: #000428;   fallback for old browsers
 background: -webkit-linear-gradient(to top, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6
 background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+/*Mobile*/
+
+#kr{
+  zoom: 0.3;
+  margin: 20px;
+
+  background-image: url("src/assets/header/sqlite.jpg") ;
+  background-size: contain ;
+  background-repeat: no-repeat ;
+  background-position: center;
+
+}
