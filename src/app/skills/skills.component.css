@@ -1,5 +1,4 @@
 #sk{
-  height: 800px;
   color: white;
   margin-top: 0px;
 }
@@ -9,18 +8,35 @@
 
   background: #323232;  /* fallback for old browsers */
 
-
 }
 
 #box h1{
   color: white;
 }
 
+
+
 .ui.circular.segment{
-  width: 200px;
-  height: 200px;
-  zoom: 0.8;
+  width: 300px;
+  height: 300px;
+  zoom: 0.6;
 }
+
+
+#circle img{
+
+}
+
+#circle{
+  background-image: url("src/assets/header/sqlite.jpg") ;
+  background-size: contain ;
+  background-repeat: no-repeat ;
+  background-position: center;
+  margin-right: 30px;
+  width: 20em;
+  height: 20em;
+}
+
 
 .ui.small.circular.image{
   width: 200px;
