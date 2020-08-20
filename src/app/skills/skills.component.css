@@ -1,0 +1,34 @@
+#sk{
+  height: 800px;
+  color: white;
+  margin-top: 0px;
+}
+
+
+#box{
+
+  background: #323232;  /* fallback for old browsers */
+
+
+}
+
+#box h1{
+  color: white;
+}
+
+.ui.circular.segment{
+  width: 200px;
+  height: 200px;
+  zoom: 0.8;
+}
+
+.ui.small.circular.image{
+  width: 200px;
+  height: 200px;
+  zoom: 0.8;
+}
+
+/*
+background: #000428;   fallback for old browsers
+background: -webkit-linear-gradient(to top, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6
+background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */

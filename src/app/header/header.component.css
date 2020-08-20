@@ -1,0 +1,49 @@
+#hd {
+  height: 500px;
+
+  background-image:  url('src/assets/header/boxes.jpg');
+  color: white;
+
+  margin-top: 0px;
+}
+
+#crd{
+  position: absolute;
+  left: 100px;
+  zoom: 0.8;
+}
+
+#tp{
+  height: 80px;
+  margin-bottom: 0px;
+  background-color: black;
+
+}
+
+#holder{
+  right: 30px;
+  top: 20px;
+  position: absolute;
+
+}
+
+#holder i{
+  color: white;
+}
+
+#wlc{
+  position: absolute;
+  top : 50px ;
+  font-family: "Corbel Light";
+  font-size: 5em;
+  top: 150px;
+  left: -150px;
+}
+
+#bt{
+  height: 80px;
+  margin-bottom: 0px;
+  background-color: black;
+  margin-top: 0px;
+
+}

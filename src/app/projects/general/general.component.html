@@ -1,0 +1,65 @@
+<div id="gallery" class="ui inverted segment">
+
+
+
+        <div id="box"  class="ui segment">
+          <div class="ui grid">
+              <div class="row">
+
+                <h1 id="header1" class="ui header">{{ title }}</h1>
+
+                <div id="b1" (click)="scrollLeft()">
+                  <button class="circular ui  icon button">
+                    <i class="icon angle left"></i>
+                  </button>
+                </div>
+
+
+                <div id="b2" (click)="scrollRight()">
+                  <button class="circular ui  icon button">
+                    <i class="icon angle right"></i>
+                  </button>
+                </div>
+
+              </div>
+
+          </div>
+
+          <div class="ui clearing divider"></div>
+      </div>
+
+
+
+
+
+
+    <div #gallery  id="fbox" class="row"  >
+
+
+      <div id="crd" class="card" *ngFor="let number of numbers" >
+        <div class="ui segment divided">
+
+          <div  id="imghold" class="container">
+              <img class="" src="assets/header/boxes.jpg">
+          </div>
+
+          <div class="ui divider"></div>
+
+          <div class="row">
+
+            <div class="container">
+              <p style="font-size: 1.3em" >E05  8  Jul   , 12:21 PM</p>
+              <p style="font-size: 1.3em" ><b>Mind Matters with Dr Shyam Bhat (Psychiatrist Integrative Medicine Specialist)</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+
+
+</div>
