@@ -15,43 +15,54 @@
 }
 
 
-
+/*
 .ui.circular.segment{
   width: 200px;
   height: 200px;
-  zoom: 1;
+  zoom: 0.8;
 }
-
+*/
 
 #circle img{
 
 }
 
-#circle{
-  background-image: url("src/assets/header/sqlite.jpg") ;
-  background-size: contain ;
-  background-repeat: no-repeat ;
-  background-position: center;
-  margin: 20px;
-  width: 10em;
-  height: 10em;
-}
 
 
-@media screen and (max-width: 480px) and (min-width: 320px) {
-  #cirlce {
-    width: 50px;
-    height: 50px;
+/*Mobile First*/
+
+.ui.circular.segment {
+    background-image: url("src/assets/header/sqlite.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+  }
+
+
+
+@media screen and (min-width: 720px) {
+  .ui.circular.segment{
+    background-image: url("src/assets/header/sqlite.jpg") ;
+    background-size: contain ;
+    background-repeat: no-repeat ;
+    background-position: center;
+    margin: 20px;
+    width: 10em;
+    height: 10em;
   }
 }
 
 
 
-.ui.small.circular.image{
-  width: 200px;
-  height: 200px;
-  zoom: 0.8;
-}
+
+
+
+
+
+
 
 
 
@@ -59,6 +70,13 @@
 background: #000428;   fallback for old browsers
 background: -webkit-linear-gradient(to top, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6
 background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*
+.ui.small.circular.image{
+  width: 200px;
+  height: 200px;
+  zoom: 0.8;
+}
+*/
 
 
 /*Mobile*/
