@@ -1,4 +1,6 @@
 import {Component, OnInit, Input, ElementRef, ViewChild} from '@angular/core';
+import {projects} from './data';
+
 
 @Component({
   selector: 'app-general',
@@ -10,6 +12,10 @@ export class GeneralComponent implements OnInit {
   numbers ;
 
   @Input() title="" ;
+
+  projects = projects ;
+
+
 
 
   @ViewChild('gallery') gallery : ElementRef ;
