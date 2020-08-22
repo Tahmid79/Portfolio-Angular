@@ -33,7 +33,7 @@
 
 .ui.circular.segment {
     background-image: url("src/assets/header/sqlite.jpg");
-    background-size: contain;
+    background-size: contain ;
     background-repeat: no-repeat;
     background-position: center;
     margin: 8px;
@@ -46,8 +46,11 @@
 
 @media screen and (min-width: 720px) {
   .ui.circular.segment{
-    background-image: url("src/assets/header/sqlite.jpg") ;
-    background-size: contain ;
+
+    /*
+    background-image: url("src/assets/stack/ang.jpg") ;
+    */
+    background-size: contain  ;
     background-repeat: no-repeat ;
     background-position: center;
     margin: 20px;
