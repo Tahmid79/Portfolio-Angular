@@ -32,13 +32,13 @@
 /*Mobile First*/
 
 .ui.circular.segment {
-    background-image: url("src/assets/header/sqlite.jpg");
+
     background-size: contain ;
     background-repeat: no-repeat;
     background-position: center;
     margin: 8px;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
 
   }
 
@@ -85,6 +85,8 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 
 /*Mobile*/
 
+
+/*
 #kr{
   zoom: 0.3;
   margin: 20px;
@@ -95,3 +97,4 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
   background-position: center;
 
 }
+*/
