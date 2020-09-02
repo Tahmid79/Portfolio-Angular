@@ -1,7 +1,8 @@
 #hd {
   height: 450px;
 
-  background-image:  url('src/assets/header/boxes.jpg');
+  background-image:  url('src/assets/header/mj.jpg');
+  background-size: cover  ;
   color: white;
 
   margin-top: 0px;
